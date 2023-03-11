@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3 uid="uid://jt0gqm08ut3"]
+
+[ext_resource type="PackedScene" uid="uid://djtmmodcsvcsa" path="res://Асеты/Models/DAE format/arrow.dae" id="1_ilyw5"]
+[ext_resource type="PackedScene" uid="uid://dhydw5h44t33e" path="res://Асеты/Models/DAE format/box-large.dae" id="2_at3gu"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_m8tga"]
+friction = 2.5
+
+[node name="Node3D" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 0.998996, -0.044805, 0, 0.044805, 0.998996, 0, 0, 0)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+transform = Transform3D(1058.75, 0.972234, 212.147, 20.2024, 49.0754, -205.755, -212.224, 9.52199, 1038.78, 0, 0, 0)
+rotation_order = 0
+physics_material_override = SubResource("PhysicsMaterial_m8tga")
+
+[node name="arrow" parent="." instance=ExtResource("1_ilyw5")]
+transform = Transform3D(120.026, -16.8152, -20.9788, -17.5243, -121.715, -2.70289, -20.3902, 5.62639, -121.168, 1.75479, 0.154499, 3.44479)
+
+[node name="box-large" parent="." instance=ExtResource("2_at3gu")]
+transform = Transform3D(0.996936, 0.0692975, -0.0362774, -0.0680894, 0.997119, 0.0335433, 0.0384973, -0.0309705, 0.998782, -152.883, -106.808, 256.313)
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(0.339787, -0.508946, 0.790898, 0.2154, 0.860691, 0.461317, -0.915504, 0.0136099, 0.402079, 31.8917, 8.16198, -0.366066)
+fov = 37.6594
