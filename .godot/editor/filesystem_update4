@@ -1,1 +1,6 @@
 res://node_3d.tscn
+res://DirectionalLight3D.gd
+res://Camera3D.gd
+res://MeshInstance3D3.gd
+res://MeshInstance3D2.gd
+res://DanceCune.tscn
