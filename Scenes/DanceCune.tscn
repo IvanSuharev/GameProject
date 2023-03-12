@@ -1,8 +1,9 @@
-[gd_scene load_steps=7 format=3 uid="uid://cdjychchdneku"]
+[gd_scene load_steps=8 format=3 uid="uid://cdjychchdneku"]
 
 [ext_resource type="Script" path="res://Scripts/Camera3D.gd" id="1_8cnnt"]
 [ext_resource type="Script" path="res://Scripts/MeshInstance3D2.gd" id="2_wuusg"]
 [ext_resource type="Script" path="res://Scripts/DirectionalLight3D.gd" id="3_nlapj"]
+[ext_resource type="AudioStream" uid="uid://7j33haw0ov12" path="res://Musik/OST_Naruto_shippuden_Ikimono-gakari_-_Blue_Bird_OP3_62967143.mp3" id="4_isd1l"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_y8jk3"]
 albedo_color = Color(0.282353, 0.976471, 0.870588, 1)
@@ -566,3 +567,7 @@ script = ExtResource("2_wuusg")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 script = ExtResource("3_nlapj")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_isd1l")
+autoplay = true
