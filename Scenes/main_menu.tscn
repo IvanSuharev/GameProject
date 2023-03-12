@@ -1,8 +1,7 @@
-[gd_scene load_steps=4 format=3 uid="uid://cxpg2466bmj2h"]
+[gd_scene load_steps=3 format=3 uid="uid://cxpg2466bmj2h"]
 
 [ext_resource type="Script" path="res://Scripts/Node2D.gd" id="1_03ow3"]
 [ext_resource type="Texture2D" uid="uid://b28u34lsvutko" path="res://Фото/1637363568_8-pro-dachnikov-com-p-yaponskii-sad-sakura-foto-9.jpg" id="2_1i6f0"]
-[ext_resource type="AudioStream" uid="uid://7j33haw0ov12" path="res://Musik/OST_Naruto_shippuden_Ikimono-gakari_-_Blue_Bird_OP3_62967143.mp3" id="3_iguub"]
 
 [node name="Main_menu" type="Node2D"]
 script = ExtResource("1_03ow3")
@@ -36,12 +35,15 @@ text = "Option"
 layout_mode = 2
 text = "Quit"
 
+<<<<<<< HEAD
+=======
 [node name="muz" type="AudioStreamPlayer2D" parent="Fone/VBoxContainer"]
 position = Vector2(223.096, -160.198)
 stream = ExtResource("3_iguub")
 volume_db = -80.0
 autoplay = true
 
+>>>>>>> d0e9e4ecfce0a60cd6f2c2f1b4654cc9111b43a4
 [connection signal="pressed" from="Fone/VBoxContainer/Play" to="." method="_on_button_pressed"]
 [connection signal="pressed" from="Fone/VBoxContainer/Settings" to="." method="_on_settings_pressed"]
 [connection signal="pressed" from="Fone/VBoxContainer/Quit" to="." method="_on_button_2_pressed"]

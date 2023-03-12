@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+Button
+AudioStreamPlayer
+Node2D
+Node3D
+WorldEnvironment
+HSlider
+ShaderGlobalsOverride
+VScrollBar
+VBoxContainer
+=======
 Camera3D
 XRCamera3D
 CharacterBody3D
@@ -11,3 +22,4 @@ AudioStreamPlayer
 OmniLight3D
 TileMap
 Node2D
+>>>>>>> d0e9e4ecfce0a60cd6f2c2f1b4654cc9111b43a4
