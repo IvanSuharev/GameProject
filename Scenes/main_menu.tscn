@@ -1,0 +1,47 @@
+[gd_scene load_steps=4 format=3 uid="uid://cxpg2466bmj2h"]
+
+[ext_resource type="Script" path="res://Scripts/Node2D.gd" id="1_03ow3"]
+[ext_resource type="Texture2D" uid="uid://b28u34lsvutko" path="res://Фото/1637363568_8-pro-dachnikov-com-p-yaponskii-sad-sakura-foto-9.jpg" id="2_1i6f0"]
+[ext_resource type="AudioStream" uid="uid://7j33haw0ov12" path="res://Musik/OST_Naruto_shippuden_Ikimono-gakari_-_Blue_Bird_OP3_62967143.mp3" id="3_iguub"]
+
+[node name="Main_menu" type="Node2D"]
+script = ExtResource("1_03ow3")
+
+[node name="Fone" type="Sprite2D" parent="."]
+top_level = true
+position = Vector2(575, 323)
+scale = Vector2(0.958333, 0.815)
+texture = ExtResource("2_1i6f0")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Fone"]
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = -600.0
+offset_top = -766.871
+offset_right = -538.0
+offset_bottom = -646.871
+grow_vertical = 0
+scale = Vector2(5, 2.405)
+
+[node name="Play" type="Button" parent="Fone/VBoxContainer"]
+layout_mode = 2
+text = "Play"
+
+[node name="Settings" type="Button" parent="Fone/VBoxContainer"]
+layout_mode = 2
+text = "Option"
+
+[node name="Quit" type="Button" parent="Fone/VBoxContainer"]
+layout_mode = 2
+text = "Quit"
+
+[node name="muz" type="AudioStreamPlayer2D" parent="Fone/VBoxContainer"]
+position = Vector2(223.096, -160.198)
+stream = ExtResource("3_iguub")
+volume_db = 3.0
+autoplay = true
+
+[connection signal="pressed" from="Fone/VBoxContainer/Play" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Fone/VBoxContainer/Settings" to="." method="_on_settings_pressed"]
+[connection signal="pressed" from="Fone/VBoxContainer/Quit" to="." method="_on_button_2_pressed"]

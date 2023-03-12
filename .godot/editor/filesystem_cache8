@@ -1,5 +1,7 @@
 2a60927148abd1d33b818b535e306557
-::res://::1678592392
-Camera3D.gd::GDScript::-1::1678592094::0::1::::<>Camera3D<>::
+::res://::1678601978
+Camera3D.gd::GDScript::-1::1678601895::0::1::::<>Camera3D<>::
+DanceCune.tscn::PackedScene::4061204942697885167::1678601895::0::1::::<><>::res://Camera3D.gd<>res://MeshInstance3D2.gd<>res://DirectionalLight3D.gd
+DirectionalLight3D.gd::GDScript::-1::1678601895::0::1::::<>DirectionalLight3D<>::
 icon.svg::CompressedTexture2D::628436550760301660::1678591537::1678591537::1::::<><>::
-node_3d.tscn::PackedScene::-1::1678592094::0::1::::<><>::
+MeshInstance3D2.gd::GDScript::-1::1678601895::0::1::::<>MeshInstance3D<>::
