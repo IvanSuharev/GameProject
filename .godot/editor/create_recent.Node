@@ -1,5 +1,8 @@
-Camera3D
 MeshInstance3D
+SpotLight3D
+OmniLight3D
+DirectionalLight3D
+Camera3D
 TileMap
 Node2D
 StaticBody3D
