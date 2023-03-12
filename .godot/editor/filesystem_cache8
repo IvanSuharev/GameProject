@@ -2,9 +2,9 @@
 ::res://::1678618292
 icon.svg::CompressedTexture2D::628436550760301660::1678520512::1678520530::1::::<><>::
 ::res://addons/::1678618292
-::res://addons/interpolated_camera_3d/::1678618292
+::res://addons/interpolated_camera_3d/::1678618293
 interpolated_camera_3d.gd::GDScript::-1::1678618292::0::1::::InterpolatedCamera3D<>Camera3D<>::
-interpolated_camera_3d.svg::CompressedTexture2D::343454321378616339::1678618292::1678618293::1::::<><>::
+interpolated_camera_3d.svg::CompressedTexture2D::343454321378616339::1678618292::1678618590::1::::<><>::
 LICENSE.md::TextFile::-1::1678618292::0::1::::<><>::
 plugin.cfg::TextFile::-1::1678618292::0::1::::<><>::
 plugin.gd::GDScript::-1::1678618292::0::1::::<>EditorPlugin<>::
