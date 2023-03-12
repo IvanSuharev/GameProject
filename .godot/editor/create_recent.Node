@@ -1,9 +1,13 @@
-AudioStreamPlayer
-DirectionalLight3D
-MeshInstance3D
 Camera3D
+XRCamera3D
+CharacterBody3D
+DirectionalLight3D
 SpotLight3D
+MeshInstance3D
+StaticBody3D
+Node3D
+RigidBody3D
+AudioStreamPlayer
 OmniLight3D
 TileMap
 Node2D
-StaticBody3D

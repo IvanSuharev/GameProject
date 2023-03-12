@@ -39,7 +39,7 @@ text = "Quit"
 [node name="muz" type="AudioStreamPlayer2D" parent="Fone/VBoxContainer"]
 position = Vector2(223.096, -160.198)
 stream = ExtResource("3_iguub")
-volume_db = 0.1
+volume_db = -80.0
 autoplay = true
 
 [connection signal="pressed" from="Fone/VBoxContainer/Play" to="." method="_on_button_pressed"]

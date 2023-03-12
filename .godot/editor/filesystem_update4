@@ -3,3 +3,6 @@ res://Scenes/main_menu.tscn
 res://Scripts/Node2D.gd
 res://Scenes/DanceCune.tscn
 res://Scenes/settings.tscn
+res://Scripts/Camera3D.gd
+res://Scripts/MeshInstance3D2.gd
+res://Scripts/CharacterBody3D.gd
