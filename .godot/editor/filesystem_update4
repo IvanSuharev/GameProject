@@ -1,6 +1,11 @@
+<<<<<<< HEAD
+=======
+res://DanceCune.tscn
+>>>>>>> d0e9e4ecfce0a60cd6f2c2f1b4654cc9111b43a4
 res://Scenes/main_menu.tscn
 res://Scenes/DanceCune.tscn
 res://Scenes/settings.tscn
+<<<<<<< HEAD
 res://Scripts/VScrollBar.gd
 res://Scripts/muz.gd
 res://Scripts/HSlider.gd
@@ -8,3 +13,8 @@ res://Scripts/Button.gd
 res://Scripts/AudioStreamPlayer.gd
 res://Scripts/settings.gd
 res://Scripts/Camera3D.gd
+=======
+res://Scripts/Camera3D.gd
+res://Scripts/MeshInstance3D2.gd
+res://Scripts/CharacterBody3D.gd
+>>>>>>> d0e9e4ecfce0a60cd6f2c2f1b4654cc9111b43a4

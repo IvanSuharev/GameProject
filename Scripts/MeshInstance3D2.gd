@@ -8,12 +8,12 @@ func _ready():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	_contoller()
-	rotation.x += speed
-	rotation.y += speed
-	rotation.z += speed
+	rotation.x += speed 
+	rotation.y += speed 
+	rotation.z += speed 
 	
 	
+<<<<<<< HEAD
 func _contoller():
 	if Input.is_action_pressed("forward"):
 		translate(Vector3(-0.01, 0, 0))
@@ -28,4 +28,6 @@ func _contoller():
 	if Input.is_action_pressed("left"):
 		translate(Vector3(0, 0, 0.01))
 
+=======
+>>>>>>> d0e9e4ecfce0a60cd6f2c2f1b4654cc9111b43a4
 
