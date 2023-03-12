@@ -1,9 +1,9 @@
+Button
 AudioStreamPlayer
-DirectionalLight3D
-MeshInstance3D
-Camera3D
-SpotLight3D
-OmniLight3D
-TileMap
 Node2D
-StaticBody3D
+Node3D
+WorldEnvironment
+HSlider
+ShaderGlobalsOverride
+VScrollBar
+VBoxContainer
