@@ -2,3 +2,5 @@ res://DanceCune.tscn
 res://Camera3D.gd
 res://Scenes/main_menu.tscn
 res://Scripts/Node2D.gd
+res://Scenes/DanceCune.tscn
+res://Scripts/muz.gd
